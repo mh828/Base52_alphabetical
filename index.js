@@ -24,7 +24,7 @@ function base52Encode(input) {
     const base = 52;
     const result = [];
     let value = input;
-    while (value >= 0) {
+    while (value > 0) {
         result.push(_base52ElementEncode(value % base))
         value = Math.floor(value / base);
     }
