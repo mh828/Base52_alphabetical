@@ -19,10 +19,12 @@ function _base52ElementDecoder(input) {
 }
 
 function base52Encode(input) {
+    if (input === 0)
+        return _base52ElementEncode(input);
     const base = 52;
     const result = [];
     let value = input;
-    while (value > 0) {
+    while (value >= 0) {
         result.push(_base52ElementEncode(value % base))
         value = Math.floor(value / base);
     }
