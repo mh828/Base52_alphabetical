@@ -1,0 +1,19 @@
+{
+  "name": "js-base52",
+  "version": "1.0.0",
+  "description": "convert number to alphabetical  and reverse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mh828/Base52_alphabetical.git"
+  },
+  "author": "Mahdi Hasanpour <mh.hasnapour@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mh828/Base52_alphabetical/issues"
+  },
+  "homepage": "https://github.com/mh828/Base52_alphabetical#readme"
+}
